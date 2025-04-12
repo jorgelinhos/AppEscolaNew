@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App Alunos</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <header>
+    <h1>Consulta de Alunos</h1>
+    <input type="text" id="busca" placeholder="Buscar aluno..." />
+  </header>
+
+  <main>
+    <ul id="lista-alunos"></ul>
+  </main>
+
+  <div id="detalhes-aluno" class="hidden">
+    <img id="foto-aluno" src="" alt="Foto do aluno" />
+    <p><strong>Nome:</strong> <span id="nome-aluno"></span></p>
+    <p><strong>Fase:</strong> <span id="fase-aluno"></span></p>
+    <p><strong>Turma:</strong> <span id="turma-aluno"></span></p>
+    <p><strong>Responsável:</strong> <span id="responsavel-aluno"></span></p>
+    <p><strong>Telefone:</strong> <span id="telefone-aluno"></span></p>
+    <button id="editar-aluno">Editar</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
